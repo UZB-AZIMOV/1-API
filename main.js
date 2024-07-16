@@ -14,8 +14,8 @@ async function fetchUsers(api){
 fetchUsers(API_URL)
 
 const IMAGES = [
-    "https://u.9111s.ru/uploads/202208/11/f9e6600b5c6decb2044bc541430d72d5.jpg",
     "https://www.funnyart.club/uploads/posts/2022-12/1671652727_www-funnyart-club-p-kartinki-devushka-s-telefonom-foni-15.jpg",
+    "https://i.work.ua/article/2032b.jpg",
     "https://overclockers.ru/st/legacy/blog/121152/387780_O.jpg",
     "https://www.cheltv.ru/wp-content/uploads/2021/04/gelt.jpg",
     "https://i.etsystatic.com/22267623/r/il/579caf/2304686633/il_1588xN.2304686633_hvkq.jpg",
