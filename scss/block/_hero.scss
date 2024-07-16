@@ -1,0 +1,17 @@
+.hero{
+    color: white;
+    text-align: center;
+    
+    .hero__title{
+        font-size: 55px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+
+      
+    }
+    &__text{
+margin: 10px 0 20px 0;
+font-weight: 700;
+font-size:64px;
+    }
+    }
