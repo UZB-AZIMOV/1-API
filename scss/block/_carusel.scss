@@ -3,7 +3,7 @@
 }
 .box{
     display: none;
-    transition: 3s;
+    transition: 9s;
 
 }
 .card{
@@ -13,7 +13,7 @@
     color: white;
 font-size: 18px; 
 line-height: 30px;  
-transition: 3s;
+transition:4s;
 }
 .card{
     &:hover{
@@ -37,7 +37,7 @@ transition: 3s;
 .card__img{
     border-radius: 20px 20px 0 0;
     height: 220px;
-    transition: .9s;
+    transition:1s;
 
 }
 
@@ -102,6 +102,12 @@ flex-direction: column;
     .name{
         font-size: 30px;
     }
+    .title{
+        font-size: 30px;
+    }
+    .body{
+        padding: 0 90px;
+    }
     .card{
         margin: auto;
         text-align: center;
@@ -121,14 +127,19 @@ flex-direction: column;
         font-size: 30px;
     }
  
+    .but{
+        font-size: 35px;
+        font-weight: 800;
+margin-left: 450px;
+    }
 }
 
 
 .title{
     margin: 10px 0;
     color: deepskyblue;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 500;
 }
 
 .book{
@@ -143,6 +154,8 @@ flex-direction: column;
     color: orange;
     font-size: 25px;
     font-weight: 700;
+    width: 400px;
+    
     padding: 5px 100px;
     transition: 1s;
     &:hover{
