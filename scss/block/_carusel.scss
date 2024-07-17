@@ -92,19 +92,35 @@ transition: 3s;
 
 @media ( max-width:550px){
 
-
+.wrapper{
+flex-direction: column;
+}
     .hero{
         width: 100%;
         text-align: center;
+    }
+    .name{
+        font-size: 30px;
     }
     .card{
         margin: auto;
         text-align: center;
         width: 100%;
+        font-size: 25px;
         &__img{
             width: 100%;
         }
     }
+    .card__img{
+        border-radius: 20px 20px 0 0;
+        height: 450px;
+        transition: .9s;
+    
+    }
+    .btn{
+        font-size: 30px;
+    }
+ 
 }
 
 
