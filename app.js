@@ -37,8 +37,8 @@ function createCard(deta){
                 </div>
                 <div class="cup"> 
                 <p class="title"> ${post.title}</p>
-                <p class ="Post body">Id: ${post.id}</p>
-        <p class ="Post body">Body: ${post.body}</p>
+                <p class ="post id">Id: ${post.id}</p>
+        <p class ="bod">Body: ${post.body}</p>
         <div class="bag">
             <button class="btn">View More</button>
 
